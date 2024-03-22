@@ -5,7 +5,7 @@
 Telas pequenas: até(menos que) 600px
 Celular: de 600px até 768px
 Tablet: de 768px até 992px
-Desktop: de 992px até 1199px 
+Desktop: de 992px até 1200px 
 Telas grandes: de 1200px pra cima
 */
 
@@ -48,5 +48,13 @@ Telas grandes: de 1200px pra cima
   section#login > div#formulario {
     float: left;
     width: 50%;
+  }
+
+  div#formulario > h1 {
+    font-size: 2em;
+  }
+
+  div#formulario > p {
+    font-size: 1.2em;
   }
 }
